@@ -1,1 +1,7 @@
-# quiz_app
+## Quiz App
+
+Quiz App
+
+#### License
+
+MIT
