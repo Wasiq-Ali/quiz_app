@@ -12,7 +12,7 @@ Welcome to the Quiz App repository! This project features a dynamic and engaging
 # 📚 Getting Started
 1. Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/quiz-app.git
+git clone https://github.com/Wasiq-Ali/quiz_app.git
 ```
 2. Run the App: Open index.html in your browser to start using the app.
 
