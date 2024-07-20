@@ -1,5 +1,5 @@
 # Quiz App - A Fun and Interactive Quiz Experience.
-Welcome to the Quiz App repository! This project features a dynamic with LocalStorage and engaging quiz application built with vanilla JavaScript, HTML, and CSS. Whether you're looking to test your knowledge or add a quiz feature to your website, this app provides a clean and user-friendly interface.
+Welcome to the Quiz App repository! This project features a dynamic and engaging quiz application built with vanilla JavaScript, HTML, and CSS. Utilizing LocalStorage, the app allows you to test your knowledge or integrate a quiz feature into your website. Enjoy a clean, user-friendly interface and customizable options.
 
 # 🛠️ Features
 - Start and End Quiz: Begin with a simple start button and end with a result screen.
