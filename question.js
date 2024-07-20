@@ -1,0 +1,1 @@
+export const questions = JSON.parse(localStorage.getItem("questions"));

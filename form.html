@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Added Quiz -- Quiz App - Using Js</title>
+	<link rel="stylesheet" href="./main.css">
+	<link rel="stylesheet" href="./form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+	<!-- After form submit Message -->
+	<div class="message"></div>
+
+	<form id="quiz-added-form">
+		<h1>Question Added Form</h1>
+
+		<!-- Navigation for go to Quiz added page. -->
+		<nav id="nav">
+			<div class="ellipsis">
+				<i class="fa-solid fa-ellipsis"></i>
+			</div>
+
+			<div class="navigation">
+				<a href="./index.html">Go to Quiz</a>
+			</div>
+		</nav>
+
+		<div class="id" type="hidden">
+			<input type="hidden" name="id">
+		</div>
+
+		<div class="input-group">
+			<label for="question">Question</label>
+			<input type="text" placeholder="Write a question here..." name="question" id="question">
+		</div>
+
+		<div class="input-group">
+			<label for="answer">Correct Answer</label>
+			<input type="text" placeholder="Write a answer here..." name="answer" id="answer">
+		</div>
+
+		<div class="options-group">
+			<div class="input-group">
+				<label for="option-1">Option 1</label>
+				<input type="text" placeholder="Write a option 1 here..." name="option-1" id="option-1">
+			</div>
+
+			<div class="input-group">
+				<label for="option-2">Option 2</label>
+				<input type="text" placeholder="Write a option 2 here..." name="option-2" id="option-2">
+			</div>
+
+			<div class="input-group">
+				<label for="option-3">Option 3</label>
+				<input type="text" placeholder="Write a option 3 here..." name="option-3" id="option-3">
+			</div>
+
+			<div class="input-group">
+				<label for="option-4">Option 4</label>
+				<input type="text" placeholder="Write a option 4 here..." name="option-4" id="option-4">
+			</div>
+		</div>
+
+		<button type="submit" class="added-button">Submit Question</button>
+	</form>
+
+	<script type="module" src="./form.js"></script>
+</body>
+</html>
