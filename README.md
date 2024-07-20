@@ -25,7 +25,7 @@ View Results: After completing all questions, view your score and receive feedba
 Feel free to fork this repository and contribute them for improvements or new features. If you find any bugs or issues, please open an issue in the repository.
 
 # 🌐 Links
-Demo: https://wasiq-ali.github.io/quiz_app/
+Demo:
 
 # 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
