@@ -1,4 +1,4 @@
-# Quiz App - A Fun and Interactive Quiz Experience
+# Quiz App - A Fun and Interactive Quiz Experience.
 Welcome to the Quiz App repository! This project features a dynamic with LocalStorage and engaging quiz application built with vanilla JavaScript, HTML, and CSS. Whether you're looking to test your knowledge or add a quiz feature to your website, this app provides a clean and user-friendly interface.
 
 # 🛠️ Features
@@ -6,15 +6,15 @@ Welcome to the Quiz App repository! This project features a dynamic with LocalSt
 - Interactive Questions: Present multiple-choice questions with a countdown timer for each.
 - Timer & Progress: Visual indicators for time remaining and quiz progress.
 - Results & Feedback: Display results with personalized messages based on score.
-- Responsive Design: Optimized for both desktop and mobile devices. Still (WIP)
+- Responsive Design: Optimized for both desktop and mobile devices. Work in progress.
+- Adding More Quizzes: Navigate to the `form.html page` to add more quizzes.
 
 # 📚 Getting Started
 1. Clone the Repository:
-```git clone https://github.com/yourusername/quiz-app.git```
-
-2. Install Dependencies: (if any, though this project does not have external dependencies)
-
-3. Run the App: Open index.html in your browser to start using the app.
+```bash
+git clone https://github.com/yourusername/quiz-app.git
+```
+2. Run the App: Open index.html in your browser to start using the app.
 
 # 📜 Usage
 Start the Quiz: Click the "Start Quiz" button to begin.
