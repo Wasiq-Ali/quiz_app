@@ -28,36 +28,6 @@ body {
 	background-color: var(--primary-background-color);
 }
 
-/* Utils Classes */
-
-.d-flex {
-	display: flex;
-}
-
-.align-item-center {
-	align-items: center;
-}
-
-.justify-between {
-	justify-content: space-between;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.w-100 {
-	width: 100%;
-}
-
-.w-50 {
-	width: 50%;
-}
-
-.mb-10 {
-	margin-bottom: 2%;
-}
-
 /* Navigation */
 nav {
 	position: relative;
@@ -72,7 +42,7 @@ nav .ellipsis {
 nav .ellipsis i {
 	font-size: 18px;
 	transform: rotate(90deg);
-	color: rgb(247, 247, 247);
+	color: #fff;
 	cursor: pointer;
 	border-radius: 50%;
 	padding: 2px;
@@ -100,7 +70,8 @@ nav .navigation.active {
 nav .navigation a {
 	color: #161616;
 	text-decoration: none;
-	padding-inline: 8px;
+	display: block;
+	padding: 2px 4px;
 	font-weight: 500;
 }
 
@@ -192,7 +163,8 @@ nav .navigation a:hover {
 	background-color: var(--primary-color);
 }
 
-.information-container {
+.information-container,
+.quiz-container {
 	min-width: 550px;
 	max-width: 650px;
 	background-color: #fff;
@@ -260,16 +232,6 @@ nav .navigation a:hover {
 
 .action-buttons-container button.restart:hover {
 	background-color: var(--primary-background-color-vd);
-}
-
-.quiz-container {
-	min-width: 550px;
-	max-width: 650px;
-	background-color: #fff;
-	border-radius: var(--base-border-radius);
-	opacity: 0;
-	pointer-events: none;
-	transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz-container .quiz-container-header  {
