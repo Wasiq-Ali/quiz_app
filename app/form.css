@@ -6,9 +6,7 @@ body {
 	height: 100vh;
 }
 
-nav {
-	position: static;
-}
+nav { position: static }
 
 nav .ellipsis i {
 	filter: none;
