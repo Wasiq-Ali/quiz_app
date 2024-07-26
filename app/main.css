@@ -24,14 +24,10 @@
 	--base-border: 1px solid #01bd8e;
 }
 
-body {
-	background-color: var(--primary-background-color);
-}
+body { background-color: var(--primary-background-color) }
 
 /* Navigation */
-nav {
-	position: relative;
-}
+nav { position: relative }
 
 nav .ellipsis {
 	position: absolute;
@@ -79,7 +75,6 @@ nav .navigation a:hover {
 	color: var(--primary-background-color-vd);
 }
 
-/* --------------------- */
 .start-button-container,
 .alert-container,
 .information-container,
@@ -164,7 +159,8 @@ nav .navigation a:hover {
 }
 
 .information-container,
-.quiz-container {
+.quiz-container,
+.result-container {
 	min-width: 550px;
 	max-width: 650px;
 	background-color: #fff;
@@ -406,19 +402,12 @@ nav .navigation a:hover {
 }
 
 .result-container {
-	background-color: #fff;
-	min-width: 550px;
-	max-width: 650px;
 	padding: 12px 20px;
-	border-radius: var(--base-border-radius);
 	display: flex;
 	text-align: center;
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	opacity: 0;
-	pointer-events: none;
-	transform: translate(-50%, -50%) scale(0.9);
 }
 
 .result-container .icon {
